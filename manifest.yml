@@ -1,0 +1,6 @@
+---
+#UserDBTest manifest
+applications:
+- name: Tutordemo
+  memory: 512M
+  command: npm start
