@@ -34,13 +34,9 @@ block content
       br
       form.form-horizontal(role='form')
         .form-group
-          label.col-sm-2.control-label(for='inputFirstName') First Name
+          label.col-sm-2.control-label(for='tutorInputName') Full Name
           .col-sm-10
-            input#inputFirstName.form-control(type='text', placeholder='First Name')
-        .form-group
-          label.col-sm-2.control-label(for='inputLastName') Last Name
-          .col-sm-10
-            input#inputLastName.form-control(type='text', placeholder='Last Name')
+            input#tutorInputName.form-control(type='text', placeholder='Full Name')
         .form-group
           label.col-sm-2.control-label(for='inputEmail') Email Address
           .col-sm-10
@@ -53,6 +49,16 @@ block content
           label.col-sm-2.control-label(for='inputZip') Zip Code
           .col-sm-10
             input#inputZip.form-control(type='text', placeholder='Zip Code')
+        .form-group
+          label.col-sm-2.control-label(for='inputRate') Rate
+          .col-sm-10
+            .input-group
+              span.input-group-addon $
+              input#inputZip.form-control(type='text', placeholder='Rate')
+        .form-group
+          label.col-sm-2.control-label(for='inputBio') Bio
+          .col-sm-10
+            textarea#inputBio.form-control(type='text', placeholder='Bio')
         .form-group
           .col-sm-offset-2.col-sm-10
             button.btn.btn-success(type='submit') Sign up
