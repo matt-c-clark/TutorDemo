@@ -1,6 +1,9 @@
 {
   "name": "tutortest",
   "version": "0.0.1",
+  "engines": {
+    "node": "0.10.28"
+  },
   "private": true,
   "scripts": {
     "start": "node ./bin/www"

@@ -1,6 +1,6 @@
 ---
-#Tutordemo manifest
+#tutordemo manifest
 applications:
-- name: Tutordemo
+- name: tutordemo
   memory: 128M
   command: npm start
